@@ -22,6 +22,8 @@ end
 def printer(array)
   array.each do |speaker|
     puts batch_badge_creator(speaker)
+  end
+  array.each do |speaker|
     puts assign_rooms(speaker)
   end
 end
