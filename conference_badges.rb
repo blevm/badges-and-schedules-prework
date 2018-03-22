@@ -12,5 +12,5 @@ end
 def assign_rooms(array)
   array.map do |speaker|
     "Hello, #{speaker}! You'll be assigned to room #{array.index+1}!"
-  end  
+  end
 end
