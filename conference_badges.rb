@@ -4,8 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  badges = []
   array.map do |speaker|
-    "Hello, my name is #{speaker}."
+    badges << "Hello, my name is #{speaker}."
   end
 end
 
