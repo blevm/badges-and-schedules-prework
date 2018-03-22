@@ -21,9 +21,9 @@ end
 
 def printer(array)
   array.each do |speaker|
-    puts batch_badge_creator(array[speaker.index])
+    batch_badge_creator(array[speaker.index])
   end
   array.each do |speaker|
-    puts assign_rooms(array[speaker.index])
+    assign_rooms(array[speaker.index])
   end
 end
