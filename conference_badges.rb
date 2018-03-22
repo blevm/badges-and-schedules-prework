@@ -20,10 +20,10 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.each do |speaker|
-    batch_badge_creator(array[speaker.index])
+  array.each_index do |speaker|
+    batch_badge_creator(array[speaker])
   end
   array.each do |speaker|
-    assign_rooms(array[speaker.index])
+    assign_rooms(array[speaker])
   end
 end
